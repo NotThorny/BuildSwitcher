@@ -15,7 +15,7 @@ import java.util.Arrays;
 import java.util.List;
 
 // Command usage
-@Command(label = "build", aliases = "set", usage = "set|load [name]", targetRequirement = TargetRequirement.NONE)
+@Command(label = "build", aliases = "set", usage = "save|load [a - z]", targetRequirement = TargetRequirement.NONE)
 public class BuildSwitcherCommand implements CommandHandler {
     private static final Config config = BuildSwitcher.getInstance().config.getConfig();
 
