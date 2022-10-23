@@ -23,3 +23,5 @@ If you delete the items from your inventory then the build won't load the missin
 `/at load [a - z]` to load saved artifacts
 
 - eg. /at load p
+
+Builds can use a - z for first 26 slots, and a1 - z1 for 26 more slots.
