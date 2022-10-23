@@ -10,7 +10,7 @@ If you delete the items from your inventory then the build won't load the missin
 
 ## Installation
 **Prebuilt JAR:** 
-- Get latest AttackModifier.jar release from [releases](https://github.com/NotThorny/BuildSwitcher/releases) and place it in your `\grasscutter\plugins` folder.
+- Get latest BuildSwitcher.jar release from [releases](https://github.com/NotThorny/BuildSwitcher/releases) and place it in your `\grasscutter\plugins` folder.
  
  Restart the server if it was already running.
  
