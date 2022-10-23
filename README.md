@@ -6,7 +6,7 @@ Saved builds use the items directly from your inventory, no new items are made. 
 
 If you delete the items from your inventory then the build won't load the missing items.
 
- If you need more than 26 builds then you should optimize your builds :)
+ If you need more than 52 builds then you should optimize your builds :)
 
 ## Installation
 **Prebuilt JAR:** 
