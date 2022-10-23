@@ -25,3 +25,11 @@ If you delete the items from your inventory then the build won't load the missin
 - eg. /set load p
 
 Builds can use a - z for first 26 slots, and a1 - z1 for 26 more slots.
+
+## Issues
+
+None found yet
+
+## TODO
+
+- Store items instead of inventory entries, so that builds can be used across accounts
