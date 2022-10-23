@@ -16,12 +16,12 @@ If you delete the items from your inventory then the build won't load the missin
  
  ## Usage
  
-`/at save [a - z]` to save current artifacts
+`/set save [a - z]` to save current artifacts
 
-- eg. /at save c
+- eg. /set save c
  
-`/at load [a - z]` to load saved artifacts
+`/set load [a - z]` to load saved artifacts
 
-- eg. /at load p
+- eg. /set load p
 
 Builds can use a - z for first 26 slots, and a1 - z1 for 26 more slots.
