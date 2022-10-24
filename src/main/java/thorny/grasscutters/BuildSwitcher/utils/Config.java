@@ -1,5 +1,7 @@
 package thorny.grasscutters.BuildSwitcher.utils;
 
+import emu.grasscutter.game.inventory.GameItem;
+
 public final class Config {
     public builds a = new builds();
     public builds b = new builds();
@@ -56,14 +58,14 @@ public final class Config {
 
     public static class builds {
 
-        public itemsIds items = new itemsIds();
+        public items items = new items();
 
-        public static class itemsIds {
-            public long bracer = 0;
-            public long necklace = 0;
-            public long shoes = 0;
-            public long ring = 0;
-            public long dress = 0;
+        public static class items {
+            public GameItem bracer;
+            public GameItem dress;
+            public GameItem necklace;
+            public GameItem ring;
+            public GameItem shoes;
         }
     }
 }
