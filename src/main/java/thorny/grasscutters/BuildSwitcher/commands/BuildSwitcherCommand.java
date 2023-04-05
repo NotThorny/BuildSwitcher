@@ -18,7 +18,7 @@ import java.util.Arrays;
 import java.util.List;
 
 // Command usage
-@Command(label = "build", aliases = "set", usage = "save|load [a - z]", targetRequirement = TargetRequirement.NONE)
+@Command(label = "set", aliases = "builds", usage = "save|load [a - z]", targetRequirement = TargetRequirement.NONE)
 public class BuildSwitcherCommand implements CommandHandler {
     private static final Config config = BuildSwitcher.getInstance().config.getConfig();
 
@@ -122,6 +122,7 @@ public class BuildSwitcherCommand implements CommandHandler {
         try { // Save configuration & reload.
             BuildSwitcher.getInstance().reloadConfig(updated);
         } catch (Exception exception) {
+            exception.printStackTrace();
             Grasscutter.getLogger().warn("Failed to update ", exception);
         }
         
