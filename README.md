@@ -1,10 +1,6 @@
 # Build Switcher Basics
 
-### This plugin was put together relatively quickly and has some somewhat specific requirements.
-
 Items are saved so builds can be used across accounts.
-
- If you need more than 52 builds then you should optimize your builds :)
 
 ## Installation
 **Prebuilt JAR:** 
@@ -14,15 +10,17 @@ Items are saved so builds can be used across accounts.
  
  ## Usage
  
-`/set save [a - z]` to save current artifacts
+`/set save [name]` to save current artifacts
 
-- eg. /set save c
+- eg. /set save overkill
  
-`/set load [a - z]` to load saved artifacts
+`/set load [name]` to load saved artifacts
 
-- eg. /set load p
+- eg. /set load cool50
 
-Builds can use a - z for first 26 slots, and a1 - z1 for 26 more slots.
+Builds can use any name you want!
+
+`/set list` to see all saved builds
 
 ## Issues
 
