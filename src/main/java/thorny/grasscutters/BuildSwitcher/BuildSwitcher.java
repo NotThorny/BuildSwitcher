@@ -38,7 +38,12 @@ public final class BuildSwitcher extends Plugin {
         config.getConfig();
     }
 
-    public void reloadConfig(Config updated) {
-        config.loadConfig(updated);
+    public boolean reloadConfig(Config updated) {
+        config.setConfig(updated);
+        if (config.saveConfig()) {
+            config.loadConfig();
+            return true;
+        } else
+            return false;
     }
 }

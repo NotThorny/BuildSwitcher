@@ -1,8 +1,9 @@
 {
   "name": "BuildSwitcher",
   "description": "Save and switch between character builds",
-  "version": "0.1.0-dev",
+  "version": "0.2.0-dev",
   "authors": [ "NotThorny" ],
+  "api": 2,
   
   "mainClass": "thorny.grasscutters.BuildSwitcher.BuildSwitcher",
   
