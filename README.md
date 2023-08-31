@@ -1,6 +1,8 @@
 # Build Switcher Basics
 
-Items are saved so builds can be used across accounts.
+Save your artifacts in reusable sets, which can be easily equipped on any character.
+
+Items are saved so builds can be used across all accounts on the server.
 
 ## Installation
 **Prebuilt JAR:** 
